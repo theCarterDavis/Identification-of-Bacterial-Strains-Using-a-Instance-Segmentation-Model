@@ -1,2 +1,2 @@
 This is a research project done for Point Loma Nazarene University. The goal was to use instance segmentation to identify different bacterial strains within images of petri dishes. Data preparation was done in python, labeling and masking of images was done using FASTSAM, and training was done on a YOLOv8 model using PyTorch.
-Along with the project, there are also a handful of images that can be used to demonstrate the flask app, which is a simple spp to demonstrate the model's performance.
+Along with the project, there are also a handful of images that can be used to demonstrate the Flask app, a simple app that demonstrates the model's performance, and a copy of the paper outlining the project's methodology and results.
