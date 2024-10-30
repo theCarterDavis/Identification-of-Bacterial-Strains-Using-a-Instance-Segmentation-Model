@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original and Detection Image</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 50%;
+        }
+
+        .detection-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .detection-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .detection-info li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Original and Detection Images</h1>
+    <div class="image-container">
+        <div class="original-image">
+            <h2>Original Image</h2>
+            <img src="data:image/png;base64,{{ original_img_data }}" alt="Original Image">
+        </div>
+        <div class="grayscale-image">
+            <h2>Detection Image</h2>
+            <img src="data:image/png;base64,{{ detection_img_data }}" alt="Detection Image">
+        </div>
+    </div>
+    <div class="detection-info">
+        <h2>Detected Classes and Confidence Level</h2>
+        <ul>
+        {% for info in class_info %}
+            <li>{{ info }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
