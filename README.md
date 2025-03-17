@@ -43,15 +43,7 @@ The dataset underwent rigorous preparation, including the removal of images with
    ```
    pip install -r requirements.txt
    ```
-   
-   The requirements.txt file includes:
-   - ultralytics==8.0.0
-   - torch>=1.7.0
-   - torchvision>=0.8.0
-   - opencv-python>=4.5.1
-   - numpy>=1.18.5
-   - flask>=2.0.0
-   - segment-anything>=0.1.0
+
 
 3. Download the pre-trained model weights:
    ```
