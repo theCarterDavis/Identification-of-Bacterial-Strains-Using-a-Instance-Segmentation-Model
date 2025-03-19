@@ -169,8 +169,6 @@ The confusion matrix demonstrated high accuracy across all bacterial strains, wi
    - **Problem**: `ValueError: cannot identify image file`
    - **Solution**: Ensure you're uploading supported image formats (PNG, JPG, JPEG, GIF).
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributing
 We welcome contributions to improve the project! To contribute:
@@ -204,7 +202,7 @@ For questions, collaboration opportunities, or issues regarding this project, pl
 - Carter Davis - cdavis0022@pointloma.edu
 
 ## Research Paper
-The full research paper describing this project's methodology, experimental setup, and results can be found in the root directory as `research_paper.pdf`.
+The full research paper describing this project's methodology, experimental setup, and results can be found [here](https://ieeexplore.ieee.org/document/10822108).
 
 ## References
 
